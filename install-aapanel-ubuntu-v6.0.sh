@@ -469,7 +469,7 @@ Install_Python_Lib(){
 	fi
 }
 Install_Bt(){
-	panelPort="8888"
+	panelPort="22"
 	if [ -f ${setup_path}/server/panel/data/port.pl ];then
 		panelPort=$(cat ${setup_path}/server/panel/data/port.pl)
 	fi
